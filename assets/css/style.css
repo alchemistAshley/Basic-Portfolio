@@ -50,14 +50,13 @@ ul {
 .about {
     width: 920px;
     height: auto;
-    overflow: auto;
+    overflow: hidden;
     margin: 0 auto;
     margin-top: 32px;
     padding: 20px;
     background-color: #ffffff;
     color: #777777;
     border-color: #777777;
-    border-width: 1px;
 }
 
 h2 {
@@ -76,7 +75,37 @@ img {
 
 p {
     float: left;
-    padding: 20px 20px 20px 0;
+    padding: 20px 20px 20px 0px;
+}
+
+form {padding: 20px 20px 0px 0px;}
+
+input {
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #777777;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background: #cc919a; 
+    color: #ffffff;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
 }
 
 .footer {
@@ -124,4 +153,16 @@ a:focus {
 
 a:active {
     color: #ffb6c1;
+}
+
+button:hover {
+    background: #e5a3ad;
+}
+
+button:focus {
+    background: #b27f87;
+}
+
+button:active {
+    background: #ffb6c1;
 }
