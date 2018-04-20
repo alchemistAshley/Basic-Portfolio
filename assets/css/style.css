@@ -3,7 +3,8 @@
     height: 100%;
     margin: 0;
     background-image: url("../images/asanoha-400px/asanoha-400px.png");
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing: .7px;
 }
 
 .header {
@@ -12,7 +13,7 @@
     margin: 0 auto;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 .navbar {
@@ -30,7 +31,7 @@
 
 .heading {
     font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 li {
@@ -40,6 +41,8 @@ li {
 }
 
 ul {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
     display: block;
     list-style-type: none;
     margin: 0;
@@ -66,19 +69,58 @@ h2 {
     border-bottom: 2px solid #cccccc;
 }
 
-img {
+#image {
     float: left;
     width: 200px;
     height: 200px;
-    padding: 20px 20px 0px 0px;
+    padding: 20px 20px 10px 0px;
 }
 
 p {
     float: left;
     padding: 20px 20px 20px 0px;
+    font-size: 16px;
 }
 
-form {padding: 20px 20px 0px 0px;}
+.portfolio {
+    width: 100%;
+    position: relative;
+    padding: 20px 20px 10px 0px; 
+}
+
+.portfolioView {
+    width: 220px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+h3 {
+    height: 30px;
+    width: 220px;
+    background: #cc919a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#legend {
+    position: absolute;
+    top: 150px;
+}
+
+#lucius {
+    position: absolute;
+    left: 245px;
+    top: 150px;
+}
+
+#catmouse {
+    position: absolute;
+    right: 229.5px;
+    top: 150px;
+}
+
+form {padding: 20px 20px 10px 0px;}
 
 input {
     width: 100%;
@@ -93,7 +135,7 @@ textarea {
     width: 100%;
     padding: 5px 10px;
     margin-top: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 button {
